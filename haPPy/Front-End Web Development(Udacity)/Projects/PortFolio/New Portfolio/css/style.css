@@ -1,0 +1,146 @@
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eaeae1;
+}
+
+hr {
+    background-color: #0aa;
+    height: 3px;
+}
+
+.logo {
+    padding-top: 10px;
+    height: 200px;
+}
+
+.img-profile {
+    max-width: 100%;
+}
+
+.img-certification {
+    width: 100vw;
+    height: 350px;
+    box-shadow: 0 3px 5px 3px #ccc;
+}
+
+.img-certification:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 5px 3px #aaa;
+}
+
+.title-name {
+    font-family: 'Lato', sans-serif;
+    font-size: 70px;
+    font-weight: 100;
+    color: #676858;
+}
+
+.title-desc {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: #676858;
+}
+
+.content-abt {
+    font-family: 'Helvetica';
+    font-size: 28px;
+    text-align: justify;
+    padding-left: 40px;
+    padding-top: 30px;
+    line-height: 1.7em;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h2, h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 600;
+}
+
+.footer {
+    text-align: center;
+    font-size: 18px;
+}
+
+.icon-interest {
+    text-align: center;
+}
+
+.icons {
+    color: #000;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 10em;
+}
+
+.btn {
+    padding-left: 10px;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 990px) {
+    .logo {
+        height: 150px;
+        padding-top: 5px;
+    }
+    .img-profile {
+        height: 330px;
+    }
+    .img-certification {
+        height: 240px;
+    }
+    .content-abt {
+        padding-top: 0;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    .title-name {
+        font-size: 60px;
+    }
+    .title-desc {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .img-profile {
+        width: 100vw;
+    }
+    .title-name {
+        font-size: 30px;
+    }
+    .title-desc {
+        font-size: 10px;
+    }
+    .logo {
+        height: 80px;
+    }
+    .img-certification {
+        height: 250px;
+    }
+    .profile, .content, .cert-1, .cert-2, .int-1, .int-2, .int-3 {
+        width: 100%;
+    }
+    h3 {
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .content-abt {
+        font-size: 15px;
+        line-height: 1.5em;
+    }
+    hr {
+        height: 1px;
+    }
+}
+
